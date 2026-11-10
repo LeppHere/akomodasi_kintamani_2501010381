@@ -1,0 +1,12 @@
+﻿nama_kolom,tipe_data,deskripsi
+osm_type,String,"Jenis elemen OpenStreetMap: node, way, atau relation"
+osm_id,Integer,Identitas unik elemen OpenStreetMap
+nama,String,Nama objek akomodasi
+jenis,String,Kategori akomodasi berdasarkan tag tourism
+lat,Float,Koordinat lintang objek
+lon,Float,Koordinat bujur objek
+desa,String,Informasi desa dari tag addr:village
+bintang,String,Informasi klasifikasi bintang akomodasi jika tersedia
+jumlah_kamar,String,Jumlah kamar jika dicantumkan di OpenStreetMap
+website,String,Alamat website resmi jika tersedia
+url_osm,String,Tautan menuju elemen OpenStreetMap

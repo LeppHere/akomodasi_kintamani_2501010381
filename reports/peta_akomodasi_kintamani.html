@@ -1,0 +1,1189 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_f763d911c057694be210fe88f8991ce4 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_f763d911c057694be210fe88f8991ce4" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_f763d911c057694be210fe88f8991ce4 = L.map(
+                "map_f763d911c057694be210fe88f8991ce4",
+                {
+                    center: [-8.24858065, 115.382746409375],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 11,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_e4124846464f5e3f78a040ee0e91c676 = L.tileLayer(
+                "https://server.arcgisonline.com/ArcGIS/rest/services/World_Street_Map/MapServer/tile/{z}/{y}/{x}",
+                {
+  "minZoom": 0,
+  "maxZoom": 18,
+  "maxNativeZoom": 18,
+  "noWrap": false,
+  "attribution": "Tiles \u00a9 Esri",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_e4124846464f5e3f78a040ee0e91c676.addTo(map_f763d911c057694be210fe88f8991ce4);
+        
+    
+            var marker_0d8d04a0e574b9835d7afc20c43a94b1 = L.marker(
+                [-8.2831398, 115.3658438],
+                {
+}
+            ).addTo(map_f763d911c057694be210fe88f8991ce4);
+        
+    
+        var popup_787bedfc8ff8bcf775c26f969ff44f24 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3295ca1ad531bab754188fcb1be06a7b = $(`<div id="html_3295ca1ad531bab754188fcb1be06a7b" style="width: 100.0%; height: 100.0%;">The Lakeview Hotel Bali - hotel</div>`)[0];
+                popup_787bedfc8ff8bcf775c26f969ff44f24.setContent(html_3295ca1ad531bab754188fcb1be06a7b);
+            
+        
+
+        marker_0d8d04a0e574b9835d7afc20c43a94b1.bindPopup(popup_787bedfc8ff8bcf775c26f969ff44f24)
+        ;
+
+        
+    
+    
+            marker_0d8d04a0e574b9835d7afc20c43a94b1.bindTooltip(
+                `<div>
+                     The Lakeview Hotel Bali
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_67659ff5a6b43e5b0f13f250c003f53c = L.marker(
+                [-8.2498154, 115.3984646],
+                {
+}
+            ).addTo(map_f763d911c057694be210fe88f8991ce4);
+        
+    
+        var popup_8379cc05f4d8af49ebf1eb73e7ac00f9 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_662a843bd007a9cae329ee9c6aecf151 = $(`<div id="html_662a843bd007a9cae329ee9c6aecf151" style="width: 100.0%; height: 100.0%;">Arlina - guest_house</div>`)[0];
+                popup_8379cc05f4d8af49ebf1eb73e7ac00f9.setContent(html_662a843bd007a9cae329ee9c6aecf151);
+            
+        
+
+        marker_67659ff5a6b43e5b0f13f250c003f53c.bindPopup(popup_8379cc05f4d8af49ebf1eb73e7ac00f9)
+        ;
+
+        
+    
+    
+            marker_67659ff5a6b43e5b0f13f250c003f53c.bindTooltip(
+                `<div>
+                     Arlina
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_f1a687f4f0feb599051b76be061a96b4 = L.marker(
+                [-8.2501644, 115.399798],
+                {
+}
+            ).addTo(map_f763d911c057694be210fe88f8991ce4);
+        
+    
+        var popup_f19a4c3f397bd15be5138d2da1436b30 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d15d86a1a498db20f2cc7b3ac8fb3f26 = $(`<div id="html_d15d86a1a498db20f2cc7b3ac8fb3f26" style="width: 100.0%; height: 100.0%;">Toya Devasya Resort - hotel</div>`)[0];
+                popup_f19a4c3f397bd15be5138d2da1436b30.setContent(html_d15d86a1a498db20f2cc7b3ac8fb3f26);
+            
+        
+
+        marker_f1a687f4f0feb599051b76be061a96b4.bindPopup(popup_f19a4c3f397bd15be5138d2da1436b30)
+        ;
+
+        
+    
+    
+            marker_f1a687f4f0feb599051b76be061a96b4.bindTooltip(
+                `<div>
+                     Toya Devasya Resort
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_ccef75a2be0ad5768b78073b6424d086 = L.marker(
+                [-8.2814556, 115.3622232],
+                {
+}
+            ).addTo(map_f763d911c057694be210fe88f8991ce4);
+        
+    
+        var popup_73d17bdf48e83b31f37d675289ea330f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0eb713a6f7ebf14b54033f93b8c3f828 = $(`<div id="html_0eb713a6f7ebf14b54033f93b8c3f828" style="width: 100.0%; height: 100.0%;">Guesthouse - hotel</div>`)[0];
+                popup_73d17bdf48e83b31f37d675289ea330f.setContent(html_0eb713a6f7ebf14b54033f93b8c3f828);
+            
+        
+
+        marker_ccef75a2be0ad5768b78073b6424d086.bindPopup(popup_73d17bdf48e83b31f37d675289ea330f)
+        ;
+
+        
+    
+    
+            marker_ccef75a2be0ad5768b78073b6424d086.bindTooltip(
+                `<div>
+                     Guesthouse
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_9994ff73d78b9083efea3f895dca0ae6 = L.marker(
+                [-8.2807476, 115.3620477],
+                {
+}
+            ).addTo(map_f763d911c057694be210fe88f8991ce4);
+        
+    
+        var popup_cc227e7844abee758643ff375017a3b8 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5e09bad0c18fa60428fea476385d6949 = $(`<div id="html_5e09bad0c18fa60428fea476385d6949" style="width: 100.0%; height: 100.0%;">The Cave Hotel - hotel</div>`)[0];
+                popup_cc227e7844abee758643ff375017a3b8.setContent(html_5e09bad0c18fa60428fea476385d6949);
+            
+        
+
+        marker_9994ff73d78b9083efea3f895dca0ae6.bindPopup(popup_cc227e7844abee758643ff375017a3b8)
+        ;
+
+        
+    
+    
+            marker_9994ff73d78b9083efea3f895dca0ae6.bindTooltip(
+                `<div>
+                     The Cave Hotel
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_327549e6ac8cfd7a72b03ecb80b23c08 = L.marker(
+                [-8.2607538, 115.3387706],
+                {
+}
+            ).addTo(map_f763d911c057694be210fe88f8991ce4);
+        
+    
+        var popup_bcdbaf9334492c2bb23bb63adc4991f7 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4a5e19236817a31b975454f2481c4d32 = $(`<div id="html_4a5e19236817a31b975454f2481c4d32" style="width: 100.0%; height: 100.0%;">batur montáin view - hotel</div>`)[0];
+                popup_bcdbaf9334492c2bb23bb63adc4991f7.setContent(html_4a5e19236817a31b975454f2481c4d32);
+            
+        
+
+        marker_327549e6ac8cfd7a72b03ecb80b23c08.bindPopup(popup_bcdbaf9334492c2bb23bb63adc4991f7)
+        ;
+
+        
+    
+    
+            marker_327549e6ac8cfd7a72b03ecb80b23c08.bindTooltip(
+                `<div>
+                     batur montáin view
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_bb785d9b8a2da147d18c7bbb8485f999 = L.marker(
+                [-8.2463133, 115.3274021],
+                {
+}
+            ).addTo(map_f763d911c057694be210fe88f8991ce4);
+        
+    
+        var popup_640e8fd2ea9a8ff7cc1c5d60c95bd744 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2fc7be625ca8c3ec39e93323867d3218 = $(`<div id="html_2fc7be625ca8c3ec39e93323867d3218" style="width: 100.0%; height: 100.0%;">Miranda Homestay & Restaurant - guest_house</div>`)[0];
+                popup_640e8fd2ea9a8ff7cc1c5d60c95bd744.setContent(html_2fc7be625ca8c3ec39e93323867d3218);
+            
+        
+
+        marker_bb785d9b8a2da147d18c7bbb8485f999.bindPopup(popup_640e8fd2ea9a8ff7cc1c5d60c95bd744)
+        ;
+
+        
+    
+    
+            marker_bb785d9b8a2da147d18c7bbb8485f999.bindTooltip(
+                `<div>
+                     Miranda Homestay & Restaurant
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_ce16cb7594a77be0d17ba41ae9d0b21b = L.marker(
+                [-8.2503247, 115.3971364],
+                {
+}
+            ).addTo(map_f763d911c057694be210fe88f8991ce4);
+        
+    
+        var popup_87bc682b2eeeb5eec2eebc851846e73c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2d792bfa5dbeac44d68f563c823e5775 = $(`<div id="html_2d792bfa5dbeac44d68f563c823e5775" style="width: 100.0%; height: 100.0%;">Lava Stone Hostel - hostel</div>`)[0];
+                popup_87bc682b2eeeb5eec2eebc851846e73c.setContent(html_2d792bfa5dbeac44d68f563c823e5775);
+            
+        
+
+        marker_ce16cb7594a77be0d17ba41ae9d0b21b.bindPopup(popup_87bc682b2eeeb5eec2eebc851846e73c)
+        ;
+
+        
+    
+    
+            marker_ce16cb7594a77be0d17ba41ae9d0b21b.bindTooltip(
+                `<div>
+                     Lava Stone Hostel
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_5dfc32f2b83abd06735134e71761a0a9 = L.marker(
+                [-8.2837958, 115.3652416],
+                {
+}
+            ).addTo(map_f763d911c057694be210fe88f8991ce4);
+        
+    
+        var popup_90beba66527d9d675243ad012ca39291 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_981a0232989c658ec6ac9e2dbbebca66 = $(`<div id="html_981a0232989c658ec6ac9e2dbbebca66" style="width: 100.0%; height: 100.0%;">The Volcania Guesthouse - hotel</div>`)[0];
+                popup_90beba66527d9d675243ad012ca39291.setContent(html_981a0232989c658ec6ac9e2dbbebca66);
+            
+        
+
+        marker_5dfc32f2b83abd06735134e71761a0a9.bindPopup(popup_90beba66527d9d675243ad012ca39291)
+        ;
+
+        
+    
+    
+            marker_5dfc32f2b83abd06735134e71761a0a9.bindTooltip(
+                `<div>
+                     The Volcania Guesthouse
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_db4f99f51fef86d0f96549f56d5378bc = L.marker(
+                [-8.2220144, 115.3953491],
+                {
+}
+            ).addTo(map_f763d911c057694be210fe88f8991ce4);
+        
+    
+        var popup_58f1ca4ab28ceade8c4204a12e8fefff = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5bfd2f42295e46f1251fb3fa876acef1 = $(`<div id="html_5bfd2f42295e46f1251fb3fa876acef1" style="width: 100.0%; height: 100.0%;">Entrance to: Bunbulan Hill Hostel - hostel</div>`)[0];
+                popup_58f1ca4ab28ceade8c4204a12e8fefff.setContent(html_5bfd2f42295e46f1251fb3fa876acef1);
+            
+        
+
+        marker_db4f99f51fef86d0f96549f56d5378bc.bindPopup(popup_58f1ca4ab28ceade8c4204a12e8fefff)
+        ;
+
+        
+    
+    
+            marker_db4f99f51fef86d0f96549f56d5378bc.bindTooltip(
+                `<div>
+                     Entrance to: Bunbulan Hill Hostel
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_01cda609e4862bf4cb18c68508cb8db6 = L.marker(
+                [-8.2495661, 115.3938369],
+                {
+}
+            ).addTo(map_f763d911c057694be210fe88f8991ce4);
+        
+    
+        var popup_0554ca0e27dd452b279276855b095911 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2302759b4b59df060e3fe906eabce2b9 = $(`<div id="html_2302759b4b59df060e3fe906eabce2b9" style="width: 100.0%; height: 100.0%;">Batur Volcano Guesthouse - guest_house</div>`)[0];
+                popup_0554ca0e27dd452b279276855b095911.setContent(html_2302759b4b59df060e3fe906eabce2b9);
+            
+        
+
+        marker_01cda609e4862bf4cb18c68508cb8db6.bindPopup(popup_0554ca0e27dd452b279276855b095911)
+        ;
+
+        
+    
+    
+            marker_01cda609e4862bf4cb18c68508cb8db6.bindTooltip(
+                `<div>
+                     Batur Volcano Guesthouse
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_300745748b8fcbcfd020925d24e74aeb = L.marker(
+                [-8.2424318, 115.3874714],
+                {
+}
+            ).addTo(map_f763d911c057694be210fe88f8991ce4);
+        
+    
+        var popup_76b00f9424b8a4f41c5c7e0fdf44b20e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_cac9ce1756886f8ae6ffb38a4aeadd19 = $(`<div id="html_cac9ce1756886f8ae6ffb38a4aeadd19" style="width: 100.0%; height: 100.0%;">Hut - chalet</div>`)[0];
+                popup_76b00f9424b8a4f41c5c7e0fdf44b20e.setContent(html_cac9ce1756886f8ae6ffb38a4aeadd19);
+            
+        
+
+        marker_300745748b8fcbcfd020925d24e74aeb.bindPopup(popup_76b00f9424b8a4f41c5c7e0fdf44b20e)
+        ;
+
+        
+    
+    
+            marker_300745748b8fcbcfd020925d24e74aeb.bindTooltip(
+                `<div>
+                     Hut
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_fab097ac97c8af35cccb63f2ce04500b = L.marker(
+                [-8.2426933, 115.387587],
+                {
+}
+            ).addTo(map_f763d911c057694be210fe88f8991ce4);
+        
+    
+        var popup_f69dbe1e875f87cf4ecfa15b02ecd0ef = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1c6d53d2ce82c8689a2533e5d0cf0edb = $(`<div id="html_1c6d53d2ce82c8689a2533e5d0cf0edb" style="width: 100.0%; height: 100.0%;">Hut - chalet</div>`)[0];
+                popup_f69dbe1e875f87cf4ecfa15b02ecd0ef.setContent(html_1c6d53d2ce82c8689a2533e5d0cf0edb);
+            
+        
+
+        marker_fab097ac97c8af35cccb63f2ce04500b.bindPopup(popup_f69dbe1e875f87cf4ecfa15b02ecd0ef)
+        ;
+
+        
+    
+    
+            marker_fab097ac97c8af35cccb63f2ce04500b.bindTooltip(
+                `<div>
+                     Hut
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_22ff97a60314a4d5bc33e6b9dd2fb794 = L.marker(
+                [-8.249126, 115.4009885],
+                {
+}
+            ).addTo(map_f763d911c057694be210fe88f8991ce4);
+        
+    
+        var popup_166c03669fe1a9c13d8ee702297ea45c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a9d499d463a814cff4f2d26c6a846c31 = $(`<div id="html_a9d499d463a814cff4f2d26c6a846c31" style="width: 100.0%; height: 100.0%;">Volcano 2 Guesthouse - hotel</div>`)[0];
+                popup_166c03669fe1a9c13d8ee702297ea45c.setContent(html_a9d499d463a814cff4f2d26c6a846c31);
+            
+        
+
+        marker_22ff97a60314a4d5bc33e6b9dd2fb794.bindPopup(popup_166c03669fe1a9c13d8ee702297ea45c)
+        ;
+
+        
+    
+    
+            marker_22ff97a60314a4d5bc33e6b9dd2fb794.bindTooltip(
+                `<div>
+                     Volcano 2 Guesthouse
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_9e8a1b8b27e2ad4e401b514e3e7c4eec = L.marker(
+                [-8.2463334, 115.3962755],
+                {
+}
+            ).addTo(map_f763d911c057694be210fe88f8991ce4);
+        
+    
+        var popup_8390998eadcede40d9a2d24a8d6f8613 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d4b0e4467b42bbb4271ef9ab48f7f5e3 = $(`<div id="html_d4b0e4467b42bbb4271ef9ab48f7f5e3" style="width: 100.0%; height: 100.0%;">Black Lava Hostel - hostel</div>`)[0];
+                popup_8390998eadcede40d9a2d24a8d6f8613.setContent(html_d4b0e4467b42bbb4271ef9ab48f7f5e3);
+            
+        
+
+        marker_9e8a1b8b27e2ad4e401b514e3e7c4eec.bindPopup(popup_8390998eadcede40d9a2d24a8d6f8613)
+        ;
+
+        
+    
+    
+            marker_9e8a1b8b27e2ad4e401b514e3e7c4eec.bindTooltip(
+                `<div>
+                     Black Lava Hostel
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_1f8fd2f4a3fec5f6f78f8d06b5286460 = L.marker(
+                [-8.2791389, 115.3673639],
+                {
+}
+            ).addTo(map_f763d911c057694be210fe88f8991ce4);
+        
+    
+        var popup_c6878a08135f410b8427b1a745bd2c88 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f9b072cbaf50e12979a7c3acfaede942 = $(`<div id="html_f9b072cbaf50e12979a7c3acfaede942" style="width: 100.0%; height: 100.0%;">Caldera - hotel</div>`)[0];
+                popup_c6878a08135f410b8427b1a745bd2c88.setContent(html_f9b072cbaf50e12979a7c3acfaede942);
+            
+        
+
+        marker_1f8fd2f4a3fec5f6f78f8d06b5286460.bindPopup(popup_c6878a08135f410b8427b1a745bd2c88)
+        ;
+
+        
+    
+    
+            marker_1f8fd2f4a3fec5f6f78f8d06b5286460.bindTooltip(
+                `<div>
+                     Caldera
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_693c1640f14ceed07409011398c56695 = L.marker(
+                [-8.2527796, 115.3966072],
+                {
+}
+            ).addTo(map_f763d911c057694be210fe88f8991ce4);
+        
+    
+        var popup_03c93f78d423a9ec4e41e4f9432ff1df = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_498249003b0dfde0c0cd992966ada56a = $(`<div id="html_498249003b0dfde0c0cd992966ada56a" style="width: 100.0%; height: 100.0%;">Triangle House - guest_house</div>`)[0];
+                popup_03c93f78d423a9ec4e41e4f9432ff1df.setContent(html_498249003b0dfde0c0cd992966ada56a);
+            
+        
+
+        marker_693c1640f14ceed07409011398c56695.bindPopup(popup_03c93f78d423a9ec4e41e4f9432ff1df)
+        ;
+
+        
+    
+    
+            marker_693c1640f14ceed07409011398c56695.bindTooltip(
+                `<div>
+                     Triangle House
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_6d6f5c0bf4fb015245c1ea799c60180c = L.marker(
+                [-8.2780864, 115.3791336],
+                {
+}
+            ).addTo(map_f763d911c057694be210fe88f8991ce4);
+        
+    
+        var popup_27c550a3546b4c798f7d9ceea5358004 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_137bf2f70d7cac7cd02afe61cf0fbb83 = $(`<div id="html_137bf2f70d7cac7cd02afe61cf0fbb83" style="width: 100.0%; height: 100.0%;">Segara Hotel - hotel</div>`)[0];
+                popup_27c550a3546b4c798f7d9ceea5358004.setContent(html_137bf2f70d7cac7cd02afe61cf0fbb83);
+            
+        
+
+        marker_6d6f5c0bf4fb015245c1ea799c60180c.bindPopup(popup_27c550a3546b4c798f7d9ceea5358004)
+        ;
+
+        
+    
+    
+            marker_6d6f5c0bf4fb015245c1ea799c60180c.bindTooltip(
+                `<div>
+                     Segara Hotel
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_3a1a0f0504b2c47ea62f09f6cf081312 = L.marker(
+                [-8.2261727, 115.4007079],
+                {
+}
+            ).addTo(map_f763d911c057694be210fe88f8991ce4);
+        
+    
+        var popup_23480714885ec9d7e3bc155b5dbdfe56 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a5e761e55c96919409b6e71380942b69 = $(`<div id="html_a5e761e55c96919409b6e71380942b69" style="width: 100.0%; height: 100.0%;">Volcano Hostel - hotel</div>`)[0];
+                popup_23480714885ec9d7e3bc155b5dbdfe56.setContent(html_a5e761e55c96919409b6e71380942b69);
+            
+        
+
+        marker_3a1a0f0504b2c47ea62f09f6cf081312.bindPopup(popup_23480714885ec9d7e3bc155b5dbdfe56)
+        ;
+
+        
+    
+    
+            marker_3a1a0f0504b2c47ea62f09f6cf081312.bindTooltip(
+                `<div>
+                     Volcano Hostel
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_05288579de9c8826daa8f351e2dfd75b = L.marker(
+                [-8.2214097, 115.4129261],
+                {
+}
+            ).addTo(map_f763d911c057694be210fe88f8991ce4);
+        
+    
+        var popup_201da8154aa6bf8a08e041da41acd613 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_50ffb83209da45558fe4540387205c57 = $(`<div id="html_50ffb83209da45558fe4540387205c57" style="width: 100.0%; height: 100.0%;">Tegal Suci Guest House - guest_house</div>`)[0];
+                popup_201da8154aa6bf8a08e041da41acd613.setContent(html_50ffb83209da45558fe4540387205c57);
+            
+        
+
+        marker_05288579de9c8826daa8f351e2dfd75b.bindPopup(popup_201da8154aa6bf8a08e041da41acd613)
+        ;
+
+        
+    
+    
+            marker_05288579de9c8826daa8f351e2dfd75b.bindTooltip(
+                `<div>
+                     Tegal Suci Guest House
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_4b6905871ee253031dfc082b686656ca = L.marker(
+                [-8.2259944, 115.4007602],
+                {
+}
+            ).addTo(map_f763d911c057694be210fe88f8991ce4);
+        
+    
+        var popup_0b2c533238f9e84a4a9a647fdb46b1be = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ced8b66f70c3bce08b07fa6cb3857019 = $(`<div id="html_ced8b66f70c3bce08b07fa6cb3857019" style="width: 100.0%; height: 100.0%;">Volcano hostel - real location - hostel</div>`)[0];
+                popup_0b2c533238f9e84a4a9a647fdb46b1be.setContent(html_ced8b66f70c3bce08b07fa6cb3857019);
+            
+        
+
+        marker_4b6905871ee253031dfc082b686656ca.bindPopup(popup_0b2c533238f9e84a4a9a647fdb46b1be)
+        ;
+
+        
+    
+    
+            marker_4b6905871ee253031dfc082b686656ca.bindTooltip(
+                `<div>
+                     Volcano hostel - real location
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_27098788cd0adb41666e910ccc42baa2 = L.marker(
+                [-8.2189435, 115.3921304],
+                {
+}
+            ).addTo(map_f763d911c057694be210fe88f8991ce4);
+        
+    
+        var popup_5516ced9cce0321e73e91aa21f512872 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0ec50de5f0cd8713f7d67121fcd71207 = $(`<div id="html_0ec50de5f0cd8713f7d67121fcd71207" style="width: 100.0%; height: 100.0%;">Batur Panorama - hotel</div>`)[0];
+                popup_5516ced9cce0321e73e91aa21f512872.setContent(html_0ec50de5f0cd8713f7d67121fcd71207);
+            
+        
+
+        marker_27098788cd0adb41666e910ccc42baa2.bindPopup(popup_5516ced9cce0321e73e91aa21f512872)
+        ;
+
+        
+    
+    
+            marker_27098788cd0adb41666e910ccc42baa2.bindTooltip(
+                `<div>
+                     Batur Panorama
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_0a23f419b3b1ba904883d3bb3200c998 = L.marker(
+                [-8.2502718, 115.3987344],
+                {
+}
+            ).addTo(map_f763d911c057694be210fe88f8991ce4);
+        
+    
+        var popup_6238fc129eb6135740038a0c1333415e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f8ec286c32a48723a8760774390d83ec = $(`<div id="html_f8ec286c32a48723a8760774390d83ec" style="width: 100.0%; height: 100.0%;">Ampik Batur Homestay - guest_house</div>`)[0];
+                popup_6238fc129eb6135740038a0c1333415e.setContent(html_f8ec286c32a48723a8760774390d83ec);
+            
+        
+
+        marker_0a23f419b3b1ba904883d3bb3200c998.bindPopup(popup_6238fc129eb6135740038a0c1333415e)
+        ;
+
+        
+    
+    
+            marker_0a23f419b3b1ba904883d3bb3200c998.bindTooltip(
+                `<div>
+                     Ampik Batur Homestay
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_da8d98837b75067ec7ea996b24dce4a7 = L.marker(
+                [-8.2221038, 115.3981606],
+                {
+}
+            ).addTo(map_f763d911c057694be210fe88f8991ce4);
+        
+    
+        var popup_d64f3a8d961866177034ee6f300fc976 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_611f5ccfd4f1d059c11a4b39ef87044c = $(`<div id="html_611f5ccfd4f1d059c11a4b39ef87044c" style="width: 100.0%; height: 100.0%;">Pondok Bali Cottage - guest_house</div>`)[0];
+                popup_d64f3a8d961866177034ee6f300fc976.setContent(html_611f5ccfd4f1d059c11a4b39ef87044c);
+            
+        
+
+        marker_da8d98837b75067ec7ea996b24dce4a7.bindPopup(popup_d64f3a8d961866177034ee6f300fc976)
+        ;
+
+        
+    
+    
+            marker_da8d98837b75067ec7ea996b24dce4a7.bindTooltip(
+                `<div>
+                     Pondok Bali Cottage
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_f666ea4c92af7017593987613db2e723 = L.marker(
+                [-8.2227355, 115.3979713],
+                {
+}
+            ).addTo(map_f763d911c057694be210fe88f8991ce4);
+        
+    
+        var popup_ec6b29ed9d7d1d2d6111736830eeb799 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8a6bac4d9497ed08c551cf02e8bd2eaa = $(`<div id="html_8a6bac4d9497ed08c551cf02e8bd2eaa" style="width: 100.0%; height: 100.0%;">Bunbulan Panorama Villas - guest_house</div>`)[0];
+                popup_ec6b29ed9d7d1d2d6111736830eeb799.setContent(html_8a6bac4d9497ed08c551cf02e8bd2eaa);
+            
+        
+
+        marker_f666ea4c92af7017593987613db2e723.bindPopup(popup_ec6b29ed9d7d1d2d6111736830eeb799)
+        ;
+
+        
+    
+    
+            marker_f666ea4c92af7017593987613db2e723.bindTooltip(
+                `<div>
+                     Bunbulan Panorama Villas
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_67921a0eb16eec6e100e468f5cd484a2 = L.marker(
+                [-8.2311582, 115.4105557],
+                {
+}
+            ).addTo(map_f763d911c057694be210fe88f8991ce4);
+        
+    
+        var popup_75a54c08274ba1b00d346532fdc9ab63 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d4bba84def7df27b55be02d6ce1a1e9f = $(`<div id="html_d4bba84def7df27b55be02d6ce1a1e9f" style="width: 100.0%; height: 100.0%;">Villa Jempana - hotel</div>`)[0];
+                popup_75a54c08274ba1b00d346532fdc9ab63.setContent(html_d4bba84def7df27b55be02d6ce1a1e9f);
+            
+        
+
+        marker_67921a0eb16eec6e100e468f5cd484a2.bindPopup(popup_75a54c08274ba1b00d346532fdc9ab63)
+        ;
+
+        
+    
+    
+            marker_67921a0eb16eec6e100e468f5cd484a2.bindTooltip(
+                `<div>
+                     Villa Jempana
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_cd5f79f7a5a5c069285edca32f23f569 = L.marker(
+                [-8.2797767, 115.3578322],
+                {
+}
+            ).addTo(map_f763d911c057694be210fe88f8991ce4);
+        
+    
+        var popup_01af7344e26e9e8265a2e6b1e2e20dc0 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7a4b28d855575d78f2dec9f2f4d3e47d = $(`<div id="html_7a4b28d855575d78f2dec9f2f4d3e47d" style="width: 100.0%; height: 100.0%;">Batur View Homestay - guest_house</div>`)[0];
+                popup_01af7344e26e9e8265a2e6b1e2e20dc0.setContent(html_7a4b28d855575d78f2dec9f2f4d3e47d);
+            
+        
+
+        marker_cd5f79f7a5a5c069285edca32f23f569.bindPopup(popup_01af7344e26e9e8265a2e6b1e2e20dc0)
+        ;
+
+        
+    
+    
+            marker_cd5f79f7a5a5c069285edca32f23f569.bindTooltip(
+                `<div>
+                     Batur View Homestay
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_87737203693a36a301b06e11603fafee = L.marker(
+                [-8.2493469, 115.3968715],
+                {
+}
+            ).addTo(map_f763d911c057694be210fe88f8991ce4);
+        
+    
+        var popup_158d9bf71b7a987f82721ad39cf64591 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c4738a31d2c314c0ffd690b57c6a3373 = $(`<div id="html_c4738a31d2c314c0ffd690b57c6a3373" style="width: 100.0%; height: 100.0%;">Manik Tirta Cabin's - hotel</div>`)[0];
+                popup_158d9bf71b7a987f82721ad39cf64591.setContent(html_c4738a31d2c314c0ffd690b57c6a3373);
+            
+        
+
+        marker_87737203693a36a301b06e11603fafee.bindPopup(popup_158d9bf71b7a987f82721ad39cf64591)
+        ;
+
+        
+    
+    
+            marker_87737203693a36a301b06e11603fafee.bindTooltip(
+                `<div>
+                     Manik Tirta Cabin's
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_0c77ab0a5262407bfd0ad7c2abe68312 = L.marker(
+                [-8.2352849, 115.4078743],
+                {
+}
+            ).addTo(map_f763d911c057694be210fe88f8991ce4);
+        
+    
+        var popup_0b5042b5ba60f88e7c5c4010e87e9798 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6ae614917384a17476331320a9657005 = $(`<div id="html_6ae614917384a17476331320a9657005" style="width: 100.0%; height: 100.0%;">Pandawa Glamping Kintamani - hotel</div>`)[0];
+                popup_0b5042b5ba60f88e7c5c4010e87e9798.setContent(html_6ae614917384a17476331320a9657005);
+            
+        
+
+        marker_0c77ab0a5262407bfd0ad7c2abe68312.bindPopup(popup_0b5042b5ba60f88e7c5c4010e87e9798)
+        ;
+
+        
+    
+    
+            marker_0c77ab0a5262407bfd0ad7c2abe68312.bindTooltip(
+                `<div>
+                     Pandawa Glamping Kintamani
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_bf69c223206e9d2f9fb0ae608bf2491d = L.marker(
+                [-8.2490202, 115.400863],
+                {
+}
+            ).addTo(map_f763d911c057694be210fe88f8991ce4);
+        
+    
+        var popup_fd3168efb10c89e1340527098d27949f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c43d974c5d11c393a4df56d05d93b405 = $(`<div id="html_c43d974c5d11c393a4df56d05d93b405" style="width: 100.0%; height: 100.0%;">Batur Sunrise Guesthouse - hotel</div>`)[0];
+                popup_fd3168efb10c89e1340527098d27949f.setContent(html_c43d974c5d11c393a4df56d05d93b405);
+            
+        
+
+        marker_bf69c223206e9d2f9fb0ae608bf2491d.bindPopup(popup_fd3168efb10c89e1340527098d27949f)
+        ;
+
+        
+    
+    
+            marker_bf69c223206e9d2f9fb0ae608bf2491d.bindTooltip(
+                `<div>
+                     Batur Sunrise Guesthouse
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_839c6334e5170d11fb3eb93819267990 = L.marker(
+                [-8.2503106, 115.3963742],
+                {
+}
+            ).addTo(map_f763d911c057694be210fe88f8991ce4);
+        
+    
+        var popup_6a61e705a712788ed6ba352f917b94cb = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_11e45af305b154c602fe4386c0a21927 = $(`<div id="html_11e45af305b154c602fe4386c0a21927" style="width: 100.0%; height: 100.0%;">Lava Bali and Hot Spring - hotel</div>`)[0];
+                popup_6a61e705a712788ed6ba352f917b94cb.setContent(html_11e45af305b154c602fe4386c0a21927);
+            
+        
+
+        marker_839c6334e5170d11fb3eb93819267990.bindPopup(popup_6a61e705a712788ed6ba352f917b94cb)
+        ;
+
+        
+    
+    
+            marker_839c6334e5170d11fb3eb93819267990.bindTooltip(
+                `<div>
+                     Lava Bali and Hot Spring
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_3561ddd5c37241f5dcef441277865815 = L.marker(
+                [-8.2233716, 115.2545822],
+                {
+}
+            ).addTo(map_f763d911c057694be210fe88f8991ce4);
+        
+    
+        var popup_7e79aa381a61f55dba6a244c7dab2582 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_bbb2227326fbd12e498b41f9fa307f99 = $(`<div id="html_bbb2227326fbd12e498b41f9fa307f99" style="width: 100.0%; height: 100.0%;">Tanpa nama - motel</div>`)[0];
+                popup_7e79aa381a61f55dba6a244c7dab2582.setContent(html_bbb2227326fbd12e498b41f9fa307f99);
+            
+        
+
+        marker_3561ddd5c37241f5dcef441277865815.bindPopup(popup_7e79aa381a61f55dba6a244c7dab2582)
+        ;
+
+        
+    
+    
+            marker_3561ddd5c37241f5dcef441277865815.bindTooltip(
+                `<div>
+                     Tanpa nama
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+</script>
+</html>

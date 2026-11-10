@@ -1,0 +1,47 @@
+{
+    "project": "Akuisisi Data Akomodasi Kecamatan Kintamani",
+    "nim": "2501010381",
+    "platform": "Google Colab",
+    "programming_language": "Python",
+    "library": [
+        "Pandas",
+        "Requests",
+        "Folium"
+    ],
+    "data_source": {
+        "name": "OpenStreetMap",
+        "api": "Overpass API",
+        "endpoint": "https://overpass-api.de/api/interpreter",
+        "access_date": "2026-11-09",
+        "http_status": 200
+    },
+    "geographic_scope": "Kecamatan Kintamani, Kabupaten Bangli",
+    "categories": [
+        "hotel",
+        "guest_house",
+        "hostel",
+        "motel",
+        "apartment",
+        "chalet"
+    ],
+    "acquisition": {
+        "method": "Overpass API",
+        "query_file": "docs/query_overpass.txt",
+        "total_elements": 32,
+        "raw_file": "osm_akomodasi_kintamani_20261109_041952.json",
+        "hash_algorithm": "MD5",
+        "md5": "d21fb614f935226c50ed00a5417b0b3f"
+    },
+    "comparison_source": {
+        "name": "BPS Kabupaten Bangli",
+        "publication": "Kecamatan Kintamani Dalam Angka 2025",
+        "reference_year": 2024
+    },
+    "limitations": [
+        "Data OSM merupakan objek individual.",
+        "Data BPS menggunakan satuan desa/kelurahan.",
+        "Satu objek OSM belum tentu mewakili satu usaha unik.",
+        "Atribut akomodasi dapat tidak lengkap.",
+        "Batas administratif perlu diverifikasi."
+    ]
+}

@@ -1,0 +1,10 @@
+﻿aspek,pemeriksaan,status
+Sumber data,Menggunakan sumber data publik OpenStreetMap,Dilakukan
+Privasi,Tidak mengumpulkan data pribadi pengunjung atau pelanggan,Dilakukan
+Lisensi,Mencantumkan atribusi OpenStreetMap dan memperhatikan ODbL,Perlu diterapkan pada publikasi
+Transparansi,"Mencatat API, query, tanggal pengambilan, dan sumber data",Dilakukan
+Kualitas data,"Memeriksa duplikat, nama kosong, dan koordinat",Dilakukan
+Akurasi lokasi,Memverifikasi seluruh titik terhadap batas kecamatan,Belum dilakukan
+Kelengkapan,Mencatat atribut yang tidak tersedia atau kosong,Dilakukan
+Penggunaan data,Tidak mengklaim data OSM sebagai data resmi BPS,Dilakukan
+Perbandingan,Memperhatikan perbedaan satuan pengukuran OSM dan BPS,Dilakukan
